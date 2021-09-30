@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+protobuf = "*"
+pycryptodome = "*"
+ratelimit = "*"
+requests = "*"
+tqdm = "*"
+urllib3 = "<1.26.0"
+
+[pipenv]
+allow_prereleases = true
