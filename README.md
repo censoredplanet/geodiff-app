@@ -1,7 +1,7 @@
 # geodiff-app
 This repository contains the code associated with the paper **A Large-scale Investigation into Geodifferences in Mobile Apps** (USENIX 2022). Data and more information about the project can be found at https://geodiff.app.
 ```
-@inproceedings{
+@inproceedings{kumar2022geodifferences,
   title={A Large-scale Investigation into Geodifferences in Mobile Apps},
   author={Renuka Kumar and Apurva Virkud and Ram Sundara Raman and Atul Prakash and Roya Ensafi},
   booktitle={USENIX Security Symposium},
