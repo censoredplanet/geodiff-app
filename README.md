@@ -1,16 +1,25 @@
 # geodiff-app
-This repository contains the code associated with the paper **A Large-scale Investigation into Geodifferences in Mobile Apps** (USENIX 2022). Data and more information about the project can be found at https://geodiff.app.
+This repository contains the code associated with the paper **A Large-scale Investigation into Geodifferences in Mobile Apps** (USENIX 2022). More information about the project can be found at https://geodiff.app.
 ```
 @inproceedings{kumar2022geodifferences,
-  title={A Large-scale Investigation into Geodifferences in Mobile Apps},
+  title={{A Large-scale Investigation into Geodifferences in Mobile Apps}},
   author={Renuka Kumar and Apurva Virkud and Ram Sundara Raman and Atul Prakash and Roya Ensafi},
   booktitle={USENIX Security Symposium},
   year={2022}
 }
 ```
+## Data
+
+The metadata and APK error datasets can be downloaded directly [here](https://drive.google.com/drive/folders/1-UGiOUEEge-DA53k9B7KbIOvMlXKfiYZ?usp=sharing). Please reach out to us for access to the privacy policy and APK datasets.
+
+## Code
 - `apk-downloader`: download apps from Google Play
 - `gpcrawler`: download app metadata from Google Play
 - `privacy`: download privacy policies for Google Play apps
+
+## Contact
+
+The team can be contacted at geodiff.app@umich.edu.
 
 # Setup
 - This project uses Pipfiles to manage Python dependencies.
@@ -21,6 +30,19 @@ This repository contains the code associated with the paper **A Large-scale Inve
     - There are conflicts between the dependencies for the three subdirectories, so it is recommended to use separate environments.
 - `setup.cfg` contains formatting rules for development.
     - To lint code, install `pylint` and run `python -m pylint **/*.py **/**/*.py --rcfile=setup.cfg`
+
+# Citation
+
+Please use the following citation (provided in [BibTex](www.bibtex.org/) format) when using this dataset and/or code:
+
+```
+@inproceedings{kumar2022geodifferences,
+  title={{A Large-scale Investigation into Geodifferences in Mobile Apps}},
+  author={Renuka Kumar and Apurva Virkud and Ram Sundara Raman and Atul Prakash and Roya Ensafi},
+  booktitle={USENIX Security Symposium},
+  year={2022}
+}
+```
 
 # Licensing
 - This repository is released under the GNU General Public License (see [`LICENSE`](LICENSE)).
