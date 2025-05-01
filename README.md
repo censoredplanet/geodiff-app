@@ -1,4 +1,4 @@
-# geodiff-app
+# APPMAP
 This repository contains the code associated with the paper **A Large-scale Investigation into Geodifferences in Mobile Apps** (USENIX 2022).
 ```
 @inproceedings{kumar2022geodifferences,
