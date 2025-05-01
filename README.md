@@ -17,10 +17,6 @@ The metadata and APK error datasets can be downloaded directly [here](https://dr
 - `gpcrawler`: download app metadata from Google Play
 - `privacy`: download privacy policies for Google Play apps
 
-## Contact
-
-The team can be contacted at geodiff.app@umich.edu.
-
 # Setup
 - This project uses Pipfiles to manage Python dependencies.
   - To install pipenv: [instructions](https://pipenv.pypa.io/en/latest/install/#installing-pipenv)
